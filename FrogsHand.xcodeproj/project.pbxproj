@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78382EE72078C4AE002D7F4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78382EE62078C4AE002D7F4D /* AppDelegate.swift */; };
+		78382EE92078C4AE002D7F4D /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78382EE82078C4AE002D7F4D /* PreferencesViewController.swift */; };
+		78382EEB2078C4AE002D7F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78382EEA2078C4AE002D7F4D /* Assets.xcassets */; };
+		78382EEE2078C4AE002D7F4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78382EEC2078C4AE002D7F4D /* Main.storyboard */; };
+		78382EFC2078C64A002D7F4D /* StatusItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78382EFB2078C64A002D7F4D /* StatusItemController.swift */; };
+		78382EFE2078CD3C002D7F4D /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78382EFD2078CD3C002D7F4D /* Assets.swift */; };
+		78382F002078CFE6002D7F4D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78382EFF2078CFE6002D7F4D /* Extensions.swift */; };
+		78382F022078D00A002D7F4D /* NazoriController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78382F012078D00A002D7F4D /* NazoriController.swift */; };
+		78382F042078D02D002D7F4D /* NazoriState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78382F032078D02D002D7F4D /* NazoriState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		78382EE32078C4AE002D7F4D /* Frog's Hand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frog's Hand.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78382EE62078C4AE002D7F4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78382EE82078C4AE002D7F4D /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		78382EEA2078C4AE002D7F4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78382EED2078C4AE002D7F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78382EEF2078C4AE002D7F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78382EFB2078C64A002D7F4D /* StatusItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItemController.swift; sourceTree = "<group>"; };
+		78382EFD2078CD3C002D7F4D /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		78382EFF2078CFE6002D7F4D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		78382F012078D00A002D7F4D /* NazoriController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NazoriController.swift; sourceTree = "<group>"; };
+		78382F032078D02D002D7F4D /* NazoriState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NazoriState.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78382EE02078C4AE002D7F4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78382EDA2078C4AE002D7F4D = {
+			isa = PBXGroup;
+			children = (
+				78382EE52078C4AE002D7F4D /* FrogsHand */,
+				78382EE42078C4AE002D7F4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78382EE42078C4AE002D7F4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78382EE32078C4AE002D7F4D /* Frog's Hand.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78382EE52078C4AE002D7F4D /* FrogsHand */ = {
+			isa = PBXGroup;
+			children = (
+				78382EFD2078CD3C002D7F4D /* Assets.swift */,
+				78382EFF2078CFE6002D7F4D /* Extensions.swift */,
+				78382EE62078C4AE002D7F4D /* AppDelegate.swift */,
+				78382EFB2078C64A002D7F4D /* StatusItemController.swift */,
+				78382EE82078C4AE002D7F4D /* PreferencesViewController.swift */,
+				78382F012078D00A002D7F4D /* NazoriController.swift */,
+				78382F032078D02D002D7F4D /* NazoriState.swift */,
+				78382EEA2078C4AE002D7F4D /* Assets.xcassets */,
+				78382EEC2078C4AE002D7F4D /* Main.storyboard */,
+				78382EEF2078C4AE002D7F4D /* Info.plist */,
+			);
+			path = FrogsHand;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78382EE22078C4AE002D7F4D /* FrogsHand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78382EF32078C4AE002D7F4D /* Build configuration list for PBXNativeTarget "FrogsHand" */;
+			buildPhases = (
+				78382EDF2078C4AE002D7F4D /* Sources */,
+				78382EE02078C4AE002D7F4D /* Frameworks */,
+				78382EE12078C4AE002D7F4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrogsHand;
+			productName = FrogsHand;
+			productReference = 78382EE32078C4AE002D7F4D /* Frog's Hand.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78382EDB2078C4AE002D7F4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = zumuya;
+				TargetAttributes = {
+					78382EE22078C4AE002D7F4D = {
+						CreatedOnToolsVersion = 9.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 78382EDE2078C4AE002D7F4D /* Build configuration list for PBXProject "FrogsHand" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78382EDA2078C4AE002D7F4D;
+			productRefGroup = 78382EE42078C4AE002D7F4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78382EE22078C4AE002D7F4D /* FrogsHand */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78382EE12078C4AE002D7F4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78382EEB2078C4AE002D7F4D /* Assets.xcassets in Resources */,
+				78382EEE2078C4AE002D7F4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78382EDF2078C4AE002D7F4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78382F002078CFE6002D7F4D /* Extensions.swift in Sources */,
+				78382EE92078C4AE002D7F4D /* PreferencesViewController.swift in Sources */,
+				78382F022078D00A002D7F4D /* NazoriController.swift in Sources */,
+				78382EFC2078C64A002D7F4D /* StatusItemController.swift in Sources */,
+				78382EFE2078CD3C002D7F4D /* Assets.swift in Sources */,
+				78382F042078D02D002D7F4D /* NazoriState.swift in Sources */,
+				78382EE72078C4AE002D7F4D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		78382EEC2078C4AE002D7F4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78382EED2078C4AE002D7F4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78382EF12078C4AE002D7F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78382EF22078C4AE002D7F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		78382EF42078C4AE002D7F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FrogsHand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zom.zumuya.FrogsHand;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "Frog's Hand";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		78382EF52078C4AE002D7F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FrogsHand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zom.zumuya.FrogsHand;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "Frog's Hand";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78382EDE2078C4AE002D7F4D /* Build configuration list for PBXProject "FrogsHand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78382EF12078C4AE002D7F4D /* Debug */,
+				78382EF22078C4AE002D7F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78382EF32078C4AE002D7F4D /* Build configuration list for PBXNativeTarget "FrogsHand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78382EF42078C4AE002D7F4D /* Debug */,
+				78382EF52078C4AE002D7F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78382EDB2078C4AE002D7F4D /* Project object */;
+}

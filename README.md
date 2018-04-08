@@ -2,7 +2,7 @@
 
 Frog's Hand is a simple Mac app that simulates scrolls when dragging.
 
-- Requirements: OS X 10.12 or later
+- Requirements: macOS 10.12 or later
 - Swift version: 4.0
 
 ## Usage

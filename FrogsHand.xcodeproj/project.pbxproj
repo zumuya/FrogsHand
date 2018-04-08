@@ -19,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		782E5E97207A1FC7005C40CD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		78382EE32078C4AE002D7F4D /* Frog's Hand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frog's Hand.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78382EE62078C4AE002D7F4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78382EE82078C4AE002D7F4D /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +47,7 @@
 		78382EDA2078C4AE002D7F4D = {
 			isa = PBXGroup;
 			children = (
+				782E5E97207A1FC7005C40CD /* README.md */,
 				78382EE52078C4AE002D7F4D /* FrogsHand */,
 				78382EE42078C4AE002D7F4D /* Products */,
 			);

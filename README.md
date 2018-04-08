@@ -15,6 +15,7 @@ An icon appears on menubar. Preferences and Quit commands are available there.
 
 - App icon (Like [Bear's Hand](http://moments-studio.com/BearsHand/))
 - Menu icon
+- Swipe gesture between pages
 
 ## License
 

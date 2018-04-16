@@ -33,13 +33,14 @@ class StatusItemController: NSObject
 	override init()
 	{
 		statusItem = NSStatusBar.system.statusItem(withLength: 28); do {
-			statusItem.button?.image = NSImage(named: .actionTemplate)
+			statusItem.button?.image = NSImage(named: .statusItemIconTemplate)
 			let menu = NSMenu(); do {
 				menu.addItem(NSMenuItem(title: "Preferences…", action: #selector(AppDelegate.showPreferences(_ :)), keyEquivalent: ""))
 				menu.addItem(.separator())
 				menu.addItem(NSMenuItem(title: "Quit Frog's Hand", action: #selector(NSApplication.terminate(_ :)), keyEquivalent: ""))
 			}
 			statusItem.menu = menu
+			statusItem.highlightMode = true
 		}
 
 		super.init()

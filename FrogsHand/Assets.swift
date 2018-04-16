@@ -34,3 +34,7 @@ extension NSStoryboard.SceneIdentifier
 {
 	static var preferencesView = NSStoryboard.SceneIdentifier(rawValue: "PreferencesView")
 }
+extension NSImage.Name
+{
+	static var statusItemIconTemplate = NSImage.Name(rawValue: "StatusItemIconTemplate")
+}

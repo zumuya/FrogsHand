@@ -2,9 +2,7 @@
 PreferencesViewController.swift
 FrogsHand
 
-Created by zumuya on 2018/04/07.
-
-Copyright 2018 zumuya
+Copyright © 2018-2019 zumuya
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software
 and associated documentation files (the "Software"), to deal in the Software without restriction,

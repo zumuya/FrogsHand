@@ -75,7 +75,7 @@ class NazoriController: NSObject
 			defaults.addObserver(self, forKeyPath: defaultKeyPath, options: [.initial, .new], context: keyInfo.observingContext)
 			deinitHandlers.append {
 				defaults.removeObserver(self, forKeyPath: defaultKeyPath, context: keyInfo.observingContext)
-				keyInfo.observingContext.deallocate(bytes: 1, alignedTo: 1)
+				keyInfo.observingContext.deallocate()
 			}
 		}
 

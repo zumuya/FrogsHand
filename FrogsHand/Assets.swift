@@ -28,13 +28,13 @@ import Cocoa
 extension NSStoryboard.Name
 {
 	//NSStoryboard.main is only available on macOS 10.13.
-	static var main = NSStoryboard.Name(rawValue: "Main")
+	static var main = "Main"
 }
 extension NSStoryboard.SceneIdentifier
 {
-	static var preferencesView = NSStoryboard.SceneIdentifier(rawValue: "PreferencesView")
+	static var preferencesView = "PreferencesView"
 }
 extension NSImage.Name
 {
-	static var statusItemIconTemplate = NSImage.Name(rawValue: "StatusItemIconTemplate")
+	static var statusItemIconTemplate = "StatusItemIconTemplate"
 }

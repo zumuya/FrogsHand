@@ -35,9 +35,9 @@ class NazoriController: NSObject
 	
 	//MARK: - Init & Deinit
 	
-	let speedFactorObservingContext = UnsafeMutableRawPointer.allocate(bytes: 1, alignedTo: 1)
-	let triggerModifierFlagsObservingContext = UnsafeMutableRawPointer.allocate(bytes: 1, alignedTo: 1)
-	let momentumDecreaseFactorObservingContext = UnsafeMutableRawPointer.allocate(bytes: 1, alignedTo: 1)
+	let speedFactorObservingContext = UnsafeMutableRawPointer.allocate(byteCount: 1, alignment: 1)
+	let triggerModifierFlagsObservingContext = UnsafeMutableRawPointer.allocate(byteCount: 1, alignment: 1)
+	let momentumDecreaseFactorObservingContext = UnsafeMutableRawPointer.allocate(byteCount: 1, alignment: 1)
 	var deinitHandlers: [()->Void] = []
 	
 	var eventTapRunLoop: RunLoop!
@@ -54,7 +54,7 @@ class NazoriController: NSObject
 			runLoopWaitSemaphore.signal()
 			
 			while true {
-				RunLoop.current.run(mode: .defaultRunLoopMode, before: .distantFuture)
+				RunLoop.current.run(mode: RunLoop.Mode.default, before: .distantFuture)
 			}
 		}
 		runLoopWaitSemaphore.wait()
@@ -158,7 +158,7 @@ class NazoriController: NSObject
 				self.scrollEvent(momentumPhase: .end, windowNumber: oldMomentum.windowNumber)?.post(tap: .cgSessionEventTap)
 			} else if (oldMomentum == nil), (newMomentum != nil) {
 				let timer = Timer(timeInterval: Momentum.frameInterval, target: self, selector: #selector(momentumTimerDidFire(_:)), userInfo: nil, repeats: true)
-				RunLoop.main.add(timer, forMode: .defaultRunLoopMode)
+				RunLoop.main.add(timer, forMode: RunLoop.Mode.default)
 				momentumTimer = timer
 			} else if (oldMomentum != nil), (newMomentum == nil) {
 				momentumTimer?.invalidate()

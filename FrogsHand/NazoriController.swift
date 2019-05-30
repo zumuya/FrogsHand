@@ -99,6 +99,12 @@ class NazoriController: NSObject
 			let runLoopSource = CFMachPortCreateRunLoopSource(nil, eventTap, 0)
 			CFRunLoopAddSource(eventTapRunLoop.getCFRunLoop(), runLoopSource, .defaultMode)
 		}
+		eventTapEnableTimer = Timer.scheduledTimer(withTimeInterval: 2.0, repeats: true) { [weak self] timer in
+			guard let self = self, let eventTap = self.eventTap, !CGEvent.tapIsEnabled(tap: eventTap) else {
+				return
+			}
+			CGEvent.tapEnable(tap: eventTap, enable: true)
+		}
 	}
 	deinit
 	{
@@ -138,6 +144,7 @@ class NazoriController: NSObject
 	
 	var eventTap: CFMachPort?
 	var momentumTimer: Timer?
+	var eventTapEnableTimer: Timer?
 	
 	//MARK: - State
 	

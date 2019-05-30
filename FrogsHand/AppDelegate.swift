@@ -34,7 +34,7 @@ class AppDelegate: NSObject, NSApplicationDelegate
 	func applicationDidFinishLaunching(_ aNotification: Notification)
 	{
 		statusItemController.menuWillOpenHandlers.append { [weak self] menu in
-			guard let `self` = self else { return }
+			guard let self = self else { return }
 			self.closePreferences()
 		}
 		nazoriController = NazoriController()
